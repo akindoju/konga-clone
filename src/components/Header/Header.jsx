@@ -1,9 +1,20 @@
+import { useEffect, useState } from "react";
+import AdvertBar from "../AdvertBar/AdvertBar";
 import SearchBar from "../SearchBar/SearchBar";
 import "./Header.scss";
 
 const Header = () => {
+  const [isAdvertBarVisible, setIsAdvertBarVisible] = useState(false);
+
+  useEffect(() => {
+    setIsAdvertBarVisible(true);
+  }, []);
+
   return (
     <div className="headerContainer">
+      {isAdvertBarVisible && (
+        <AdvertBar setIsAdvertBarVisible={setIsAdvertBarVisible} />
+      )}
       <div className="header__options">
         <img
           src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/assets/images/homepage/k_travels2.png"
