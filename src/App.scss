@@ -13,22 +13,19 @@ html {
 
 body {
   box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
 .container {
   display: grid;
   grid-template-rows:
-    [header-start] 15vw [header-end carouselGrid-start] min-content [carouselGrid-end recommended-start] 80vh [recommended-end]
+    [header-start] min-content
+    [header-end carouselGrid-start] min-content [carouselGrid-end recommended-start] 80vh [recommended-end]
     repeat(2, 45vh)
     [eid-start] min-content [eid-end]
     repeat(2, 45vh)
     [brands-start] 20vw [brands-end]
     repeat(2, min-content);
-}
-
-.header {
-  background-color: black;
-  color: white;
 }
 
 .carouselGrid {
