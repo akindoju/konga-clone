@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* 16px is browser default */
+  font-size: 62.5%; /* 1rem = 10px; 10px/16px = 62.5% */
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-rows:
+    [header-start] 15vw [header-end carouselGrid-start] min-content [carouselGrid-end recommended-start] 80vh [recommended-end]
+    repeat(2, 45vh)
+    [eid-start] min-content [eid-end]
+    repeat(2, 45vh)
+    [brands-start] 20vw [brands-end]
+    repeat(2, min-content);
+}
+
+.header {
+  background-color: black;
+  color: white;
+}
+
+.carouselGrid {
+  background-color: blueviolet;
+}
+
+.recommended {
+  background-color: brown;
+}
+
+.sponsoredProducts {
+  background-color: cadetblue;
+}
+
+.todaysDeals {
+  background-color: chartreuse;
+}
+
+.eidEssentials {
+  background-color: chocolate;
+}
+
+.bestSelling {
+  background-color: crimson;
+}
+
+.variety {
+  background-color: darkgoldenrod;
+}
+
+.brands {
+  background-color: darkgreen;
+}
+
+.about {
+  background-color: darkred;
+}
+
+.footer {
+  background-color: indianred;
+}
