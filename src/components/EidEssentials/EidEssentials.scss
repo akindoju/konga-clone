@@ -1,0 +1,30 @@
+.eidEssentialsContainer {
+  margin: 0 2rem;
+}
+
+.eidEssentialsMain {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+}
+
+.eidEssentialsSub {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+
+  img {
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+  }
+}
