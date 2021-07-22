@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import AdvertBar from "../AdvertBar/AdvertBar";
-import SearchBar from "../SearchBar/SearchBar";
+import AdvertBar from "./AdvertBar/AdvertBar";
+import SearchBar from "./SearchBar/SearchBar";
 import "./Header.scss";
 
 const Header = () => {

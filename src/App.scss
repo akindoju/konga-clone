@@ -26,41 +26,46 @@ body {
     repeat(2, 45vh)
     [brands-start] 20vw [brands-end]
     repeat(2, min-content);
-}
-
-.carouselGrid {
-  background-color: blueviolet;
+  grid-gap: 2rem;
 }
 
 .recommended {
+  margin: 0 2rem;
   background-color: brown;
 }
 
 .sponsoredProducts {
+  margin: 0 2rem;
   background-color: cadetblue;
 }
 
 .todaysDeals {
+  margin: 0 2rem;
   background-color: chartreuse;
 }
 
 .eidEssentials {
+  margin: 0 2rem;
   background-color: chocolate;
 }
 
 .bestSelling {
+  margin: 0 2rem;
   background-color: crimson;
 }
 
 .variety {
+  margin: 0 2rem;
   background-color: darkgoldenrod;
 }
 
 .brands {
+  margin: 0 2rem;
   background-color: darkgreen;
 }
 
 .about {
+  margin: 0 2rem;
   background-color: darkred;
 }
 

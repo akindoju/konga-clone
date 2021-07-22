@@ -1,0 +1,69 @@
+.carouselGridContainer {
+  margin: 0 2rem;
+}
+
+.carouselGridMain {
+  display: grid;
+  //   grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(12, minmax(2rem, 1fr));
+  grid-template-rows: repeat(2, minmax(8rem, 1fr));
+  grid-gap: 2rem;
+
+  &__item {
+    &--img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      border-radius: 0.5rem;
+    }
+
+    &--1 {
+      grid-column: 1/9;
+      grid-row: 1/-1;
+    }
+
+    &--2 {
+      grid-column: 9/11;
+      border-radius: 0.5rem;
+      grid-row: 1/2;
+    }
+
+    &--3 {
+      grid-column: 11/13;
+      grid-row: 1/2;
+    }
+
+    &--4 {
+      grid-column: 9/11;
+      grid-row: 2/-1;
+    }
+
+    &--5 {
+      grid-column: 11/13;
+      grid-row: 2/-1;
+    }
+  }
+}
+
+.carouselGridSub {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+  grid-gap: 1rem;
+  margin-top: 2rem;
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 5%);
+
+    img {
+      width: 80%;
+      height: 80%;
+      object-fit: cover;
+    }
+  }
+}

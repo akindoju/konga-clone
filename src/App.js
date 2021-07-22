@@ -1,11 +1,13 @@
 import "./App.scss";
+import CarouselGrid from "./components/CarouselGrid/CarouselGrid";
 import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="container">
       <Header />
-      <div className="carouselGrid">Carousel Grid</div>
+      {/* <div className="carouselGrid">Carousel Grid</div> */}
+      <CarouselGrid />
       <div className="recommended">Recommended for you</div>
       <div className="sponsoredProducts">Sponsored products</div>
       <div className="todaysDeals">Today's Deals</div>
