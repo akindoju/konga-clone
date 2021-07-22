@@ -21,7 +21,7 @@ body {
   grid-template-rows:
     [header-start] min-content
     [header-end carouselGrid-start] min-content [carouselGrid-end recommended-start] 83vh [recommended-end]
-    repeat(2, 45vh)
+    repeat(2, 53vh)
     [eid-start] min-content [eid-end]
     repeat(2, 45vh)
     [brands-start] 20vw [brands-end]
@@ -30,12 +30,6 @@ body {
 }
 
 .sponsoredProducts {
-  margin: 0 2rem;
-  background-color: cadetblue;
-}
-
-.todaysDeals {
-  margin: 0 2rem;
   background-color: chartreuse;
 }
 
