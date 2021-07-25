@@ -2,6 +2,7 @@ import "./App.scss";
 import About from "./components/About/About";
 import Brands from "./components/Brands/Brands";
 import CarouselGrid from "./components/CarouselGrid/CarouselGrid";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import MidAdvert from "./components/MidAdvert/MidAdvert";
 import Recommended from "./components/Recommended/Recommended";
@@ -19,9 +20,9 @@ function App() {
       <MidAdvert />
       <Variety />
       <Brands />
-      {/* <div className="about">About</div> */}
       <About />
-      <div className="footer">Footer</div>
+      {/* <div className="footer">Footer</div> */}
+      <Footer />
     </div>
   );
 }
