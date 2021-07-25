@@ -1,4 +1,5 @@
 import "./App.scss";
+import About from "./components/About/About";
 import Brands from "./components/Brands/Brands";
 import CarouselGrid from "./components/CarouselGrid/CarouselGrid";
 import Header from "./components/Header/Header";
@@ -17,9 +18,9 @@ function App() {
       <TodaysDeal />
       <MidAdvert />
       <Variety />
-      {/* <div className="brands">Brands</div> */}
       <Brands />
-      <div className="about">About</div>
+      {/* <div className="about">About</div> */}
+      <About />
       <div className="footer">Footer</div>
     </div>
   );
