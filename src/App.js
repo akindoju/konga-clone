@@ -1,7 +1,8 @@
 import "./App.scss";
+import Brands from "./components/Brands/Brands";
 import CarouselGrid from "./components/CarouselGrid/CarouselGrid";
-import EidEssentials from "./components/EidEssentials/EidEssentials";
 import Header from "./components/Header/Header";
+import MidAdvert from "./components/MidAdvert/MidAdvert";
 import Recommended from "./components/Recommended/Recommended";
 import TodaysDeal from "./components/TodaysDeal/TodaysDeal";
 import Variety from "./components/Variety/Variety";
@@ -14,10 +15,10 @@ function App() {
       <Recommended />
       <div className="sponsoredProducts">Sponsored products</div>
       <TodaysDeal />
-      <EidEssentials />
-      {/* <div className="variety">Variety</div> */}
+      <MidAdvert />
       <Variety />
-      <div className="brands">Brands</div>
+      {/* <div className="brands">Brands</div> */}
+      <Brands />
       <div className="about">About</div>
       <div className="footer">Footer</div>
     </div>
