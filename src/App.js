@@ -1,5 +1,6 @@
 import "./App.scss";
 import About from "./components/About/About";
+import { BestSelling } from "./components/BestSelling/BestSelling";
 import Brands from "./components/Brands/Brands";
 import CarouselGrid from "./components/CarouselGrid/CarouselGrid";
 import Footer from "./components/Footer/Footer";
@@ -15,13 +16,13 @@ function App() {
       <Header />
       <CarouselGrid />
       <Recommended />
-      <div className="sponsoredProducts">Sponsored products</div>
+      {/* <div className="sponsoredProducts">Sponsored products</div> */}
+      <BestSelling />
       <TodaysDeal />
       <MidAdvert />
       <Variety />
       <Brands />
       <About />
-      {/* <div className="footer">Footer</div> */}
       <Footer />
     </div>
   );
