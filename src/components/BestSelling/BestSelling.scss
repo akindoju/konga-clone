@@ -32,6 +32,7 @@
       padding: 1rem;
       border: 0.0625rem solid rgba(0, 0, 0, 0.01);
       box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+      position: relative;
 
       img {
         width: 100%;
@@ -87,6 +88,7 @@
         flex-direction: column;
         padding: 1rem;
         align-items: center;
+        position: relative;
       }
 
       &--1 {
@@ -104,4 +106,17 @@
       }
     }
   }
+}
+
+.percentageTag {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  background-color: #ff3b3b;
+  padding: 1.2rem 1.2rem 1.2rem 0.8rem;
+  border-radius: 0 10rem 10rem 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
 }

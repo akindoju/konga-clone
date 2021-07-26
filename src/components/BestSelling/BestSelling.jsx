@@ -6,6 +6,7 @@ export const BestSelling = () => {
       <div className="bestSelling__header">Best Selling Products</div>
       <div className="bestSelling__grid">
         <div className="bestSelling__grid__item--1">
+          <h1 className="percentageTag">23% OFF</h1>
           <img
             src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/K/E/1_1521560987.jpg"
             alt="Jameson Irish Whiskey"
@@ -27,6 +28,7 @@ export const BestSelling = () => {
         </div>
 
         <div className="bestSelling__grid__item">
+          <h1 className="percentageTag">8% OFF</h1>
           <img
             src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/R/N/_1624899995.jpg"
             alt="Tecno Spark 7"
@@ -48,6 +50,7 @@ export const BestSelling = () => {
         </div>
 
         <div className="bestSelling__grid__item">
+          <h1 className="percentageTag">46% OFF</h1>
           <img
             src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/A/E/170618_1592630980.jpg"
             alt="Superlife Stc30"
@@ -67,6 +70,7 @@ export const BestSelling = () => {
         </div>
 
         <div className="bestSelling__grid__item">
+          <h1 className="percentageTag">45% OFF</h1>
           <img
             src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/F/J/81303_1625949316.jpg"
             alt="Duracell Aa Battery"
@@ -88,6 +92,7 @@ export const BestSelling = () => {
         </div>
 
         <div className="bestSelling__grid__item">
+          <h1 className="percentageTag">9% OFF</h1>
           <img
             src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/P/L/118566_1562167803.jpg"
             alt="Hennessy VS Cognac "
@@ -109,6 +114,7 @@ export const BestSelling = () => {
         </div>
 
         <div className="bestSelling__grid__item">
+          <h1 className="percentageTag">3% OFF</h1>
           <img
             src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/F/T/118566_1623532062.jpg"
             alt="Infinix Note 10"
@@ -130,6 +136,7 @@ export const BestSelling = () => {
         </div>
 
         <div className="bestSelling__grid__item">
+          <h1 className="percentageTag">35% OFF</h1>
           <img
             src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/U/V/56095_1618768554.jpg"
             alt="40,000mah Power Bank"
@@ -151,6 +158,7 @@ export const BestSelling = () => {
         </div>
 
         <div className="bestSelling__grid__item--8">
+          <h1 className="percentageTag">11% OFF</h1>
           <img
             src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/O/Q/_1617955315.jpg"
             alt="Knorr Seasoning Cubes"
@@ -172,6 +180,7 @@ export const BestSelling = () => {
         </div>
 
         <div className="bestSelling__grid__item">
+          <h1 className="percentageTag">5% OFF</h1>
           <img
             src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/F/_1613724537.jpg"
             alt="Tecno Camon 15"
@@ -193,6 +202,7 @@ export const BestSelling = () => {
         </div>
 
         <div className="bestSelling__grid__item">
+          <h1 className="percentageTag">6% OFF</h1>
           <img
             src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/H/A/118566_1620823035.jpg"
             alt="Infinix Hot 10T"
