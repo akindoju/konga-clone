@@ -20,11 +20,13 @@ body {
   display: grid;
   grid-template-rows:
     [header-start] min-content
-    [header-end carouselGrid-start] min-content [carouselGrid-end recommended-start] 81vh [recommended-end]
-    60vh 53vh
-    [eid-start] min-content [eid-end]
-    55vh
-    [brands-start] 20vw [brands-end]
+    [header-end carouselGrid-start] min-content [carouselGrid-end recommended-start]
+    81vh [recommended-end best-selling-start]
+    60vh [best-selling-end todaysDeal-start]
+    53vh [todaysDeal-end midAdvert-start]
+    min-content [midAdvert-end variety-start]
+    55vh [variety-end brands-start]
+    20vw [brands-end]
     repeat(2, min-content);
   grid-gap: 2rem;
 }

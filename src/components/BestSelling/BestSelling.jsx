@@ -1,6 +1,6 @@
 import "./BestSelling.scss";
 
-export const BestSelling = () => {
+const BestSelling = () => {
   return (
     <div className="bestSellingContainer">
       <div className="bestSelling__header">Best Selling Products</div>
@@ -226,3 +226,5 @@ export const BestSelling = () => {
     </div>
   );
 };
+
+export default BestSelling;
