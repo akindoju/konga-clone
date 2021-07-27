@@ -23,8 +23,9 @@
     display: grid;
     grid-template-columns: repeat(10, 25rem);
     grid-gap: 2rem;
-    padding: 2rem;
+    padding: 1rem 2rem; //originally 2rem, but published site has failing styling
     overflow-x: auto;
+    overflow-y: hidden;
 
     &__item {
       display: flex;
