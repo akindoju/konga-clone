@@ -4,7 +4,7 @@ const BtmPopup = ({ setIsBtmPopupVisible }) => {
   return (
     <div className="btmPopup">
       <img
-        src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/v1627296470/contentservice/fitness2.png_Bk6AGf3C_.png"
+        src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/v1627296471/contentservice/prime2.gif_BkkkQG3Ad.gif"
         alt=""
       />
 
