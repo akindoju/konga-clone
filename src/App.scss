@@ -21,7 +21,7 @@ body {
   grid-template-rows:
     [header-start] min-content
     [header-end carouselGrid-start] min-content [carouselGrid-end recommended-start]
-    81vh [recommended-end best-selling-start]
+    min-content [recommended-end best-selling-start]
     60vh [best-selling-end todaysDeal-start]
     53vh [todaysDeal-end midAdvert-start]
     min-content [midAdvert-end variety-start]
